@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nettikauppa</title>
+    </head>
+
+    <body>
+
+        <h1>Yhteystiedot </h1>
+        <form><br>
+       
+            <fieldset>
+            <legend>Yhteydenotto</legend>
+            Nimi:<br>
+            <input type="text" name="nimi"><br><br>
+            Katuosoite:<br>
+            <input type="text" name="katuosoite"><br><br>
+            Postinumero:<br>
+            <input type="number" name="postinumero"><br><br>
+            Postitoimipaikka:<br>
+            <input type="text" name="postitoimipaikka"><br><br>
+            Sähköpostiosoite:<br>
+            <input type="text" name="sahköpostiosoite"><br><br>
+            Salasana:<br>
+            <input type="password" name="salasana"><br><br>
+
+            <H3>Mistä osastoista olet kiinnostunut?</H3>
+
+            <input type="checkbox" name="kiinnostunut" 
+            value="Muoti" >Valitsen muodin<br>
+            <input type="checkbox" name="kiinnostunut"
+            value="Urheilu" >Valitsen urheilun<br>
+            <input type="checkbox" name="kiinnostunut"
+            value="Sisustaminen" >Valitsen sisustamisen<br>
+            <input type="checkbox" name="kiinnostunut"
+            value="Pelit" >Valitsen pelit<br>
+            <input type="checkbox" name="kiinnostunut"
+            value="Elokuvat" >Valitsen elokuvat<br><br>
+
+            <H3>Maksutapa</H3>
+            <select name="Maksutapa">
+                <option value="Sampo">Sampo</option>
+                <option value="Nordea">Nordea</option>
+                <option value="Osuuspankki">Osuuspankki</option>
+                <option value="Aktia">Aktia</option>
+            </select>
+
+            <H3>Anna palautetta</H3>
+            <textarea name="lisatiedot" rows="4" cols="80"></textarea>
+
+            <H3>Olen lukenut ja hyväksyn tuotteiden toimitusehdot</H3>
+            <input type="radio" name="lista"
+                value="yes" >Hyväksyn<br>
+            <input type="radio" name="lista"
+                value="no" >En hyväksy
+                <br><br>
+                <input type="submit" value="Lähetä">
+            </fieldset>
+            </form>
+            
+            
+    
+    </body>
+
+</html>
